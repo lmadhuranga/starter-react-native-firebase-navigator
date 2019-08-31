@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "422693365214",
+    "firebase_url": "https://react-movie-manager.firebaseio.com",
+    "project_id": "react-movie-manager",
+    "storage_bucket": "react-movie-manager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422693365214:android:8d4e41f333ad27fa",
+        "android_client_info": {
+          "package_name": "com.invertase.rnfirebasestarter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422693365214-tr6gcvpeqefls3rhekclgesbm4jfe09p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcQyJRhMS3oaOUcxz3j3_igHL0uvuio6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422693365214-tr6gcvpeqefls3rhekclgesbm4jfe09p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
