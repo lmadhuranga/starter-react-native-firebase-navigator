@@ -3,6 +3,7 @@ import { View, Text } from 'react-native';
 import firebase from 'react-native-firebase';
 
 import LoginPage from './screens/LoginPage';
+import LogoutBtn from './screens/LogoutBtn';
 import Todos from './Todos';
 
 class App extends React.Component {
@@ -39,6 +40,7 @@ class App extends React.Component {
       <View>
         <Text>Welcome to my awesome app {this.state.user.email}!</Text>
         {/* <Todos /> */}
+        <LogoutBtn />
       </View>
     );
   }

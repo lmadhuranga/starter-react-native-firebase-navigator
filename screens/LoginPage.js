@@ -4,8 +4,7 @@ import firebase from 'react-native-firebase';
 
 class LoginPage extends Component {
   constructor() {
-    super();
-    this.ref = firebase.firestore().collection('posts');
+    super(); 
     this.firestoreUnsubscriber = null;
     this.authUnsubscriber = null;
     this.state = {
