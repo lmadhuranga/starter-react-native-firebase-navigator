@@ -60,11 +60,11 @@ class Todos extends React.Component {
 
     render() {
         if (this.state.loading) {
-            return <View>No data</View>; // or render a loading icon
+            return null; // or render a loading icon
         }
         
         return (
-            <View style={{ flex: 1 }}>
+            <View >
                 <FlatList
                 data={this.state.todos}
                 renderItem={({ item }) => <Todo {...item} />}

@@ -38,9 +38,13 @@ class App extends React.Component {
 
     return (
       <View>
-        <Text>Welcome to my awesome app {this.state.user.email}!</Text>
-        {/* <Todos /> */}
-        <LogoutBtn />
+        <View>
+          <Text>Welcome to my awesome app {this.state.user.email}!</Text>
+          <LogoutBtn />
+        </View>
+        <View>
+          <Todos />
+        </View>
       </View>
     );
   }
